@@ -1,0 +1,206 @@
+body{
+    background-color: #cccccc;
+    height: 100%;
+}
+
+
+
+.heard{
+   height: calc(125rem/64);
+    width: 100%;
+    display:flex ;
+    justify-content: space-between;
+    line-height: calc(125rem/64);
+    background-color: #ffffff;
+}
+.heard-left{
+    margin-left:calc(20rem/64);
+    font-size: calc(20rem/64);
+}
+.heard-com{
+    font-size: calc(27rem/64);
+}
+.heard-right{
+    margin-right: calc(20rem/64);
+    width: calc(30rem/64);
+    height: calc(30rem/64);
+}
+.heard-right img{
+    width: 100%;
+    height:100%
+}
+/* main */
+.main{
+    width: 100%;
+    /* background-color: #ffffff; */
+}
+.map{
+    width:100%;
+    font-size: 0;
+}
+.map img{
+    width:100%;
+    height: 100%;
+}
+.main-main{
+    background-color: #ffffff;
+}
+.main-one{
+    width: 100%;
+    height: calc(100rem/64);
+    font-size: calc(30rem/64);
+    /* background-color: #ffffff; */
+  line-height: calc(100rem/64);
+  border-bottom: 1px solid #cccccc;
+}
+.main-one div:nth-child(1){
+    float: left;
+    margin-left:calc(20rem/64)
+}
+.main-one div:nth-child(2){
+    float: right;
+    margin-right: calc(20rem/64);
+}
+.main-two{
+    width: 100%;
+    height: calc(100rem/64);
+    font-size: calc(30rem/64);
+    /* background-color: #ffffff; */
+  line-height: calc(100rem/64);
+  border-bottom: 1px solid #cccccc;
+}
+.main-two div:nth-child(1){
+    float: left;
+    margin-left:calc(20rem/64)
+}
+.main-two div:nth-child(2){
+    float: right;
+    margin-right: calc(20rem/64);
+    font-size: calc(20rem/64);
+    color: #cccccc;
+}
+.main-there{
+    width: 100%;
+    height: calc(100rem/64);
+    font-size: calc(30rem/64);
+    /* background-color: #ffffff; */
+  line-height: calc(100rem/64);
+  border-bottom: 1px solid #cccccc;
+}
+.main-there div:nth-child(1){
+    float: left;
+    margin-left:calc(20rem/64)
+}
+.main-there div:nth-child(2){
+    float: right;
+    margin-right: calc(20rem/64);
+    font-size: calc(20rem/64);
+    /* color: #cccccc; */
+}
+.main-four{
+    width: 100%;
+    height: calc(100rem/64);
+    font-size: calc(30rem/64);
+    line-height: calc(100rem/64);
+    border-bottom: 1px solid #cccccc;
+}
+.main-four div:nth-child(1){
+    float: left;
+    margin-left:calc(20rem/64)
+}
+.main-four div:nth-child(2){
+    float: right;
+    /* margin-right: calc(20rem/64); */
+    font-size: calc(20rem/64);
+    /* color: #cccccc; */
+   
+}
+.main-four div:nth-child(2) input{
+    width: 50%;
+    float: right;
+    border: none;
+    line-height: calc(100rem/64);
+margin-left: calc(-90rem/64);
+}
+
+.main-five{
+    width: 100%;
+    height: calc(100rem/64);
+    font-size: calc(30rem/64);
+    line-height: calc(100rem/64);
+    border-bottom: 1px solid #cccccc;
+}
+.main-five div:nth-child(1){
+    float: left;
+    margin-left:calc(20rem/64)
+}
+.main-five div:nth-child(2){
+    float: right;
+    /* margin-right: calc(20rem/64); */
+    font-size: calc(20rem/64);
+    /* color: #cccccc; */
+   
+}
+.main-five div:nth-child(2) input{
+    width: 50%;
+    float: right;
+    border: none;
+    line-height: calc(100rem/64);
+margin-left: calc(-90rem/64);
+}
+.main-six{
+    width: 100%;
+    height: calc(100rem/64);
+    font-size: calc(30rem/64);
+    /* background-color: #ffffff; */
+  line-height: calc(100rem/64);
+  border-bottom: 1px solid #cccccc;
+}
+.main-six div:nth-child(1){
+    float: left;
+    margin-left:calc(20rem/64)
+}
+.main-six div:nth-child(2){
+    float: right;
+    margin-right: calc(20rem/64);
+    font-size: calc(20rem/64);
+   
+}
+/* last */
+.last{
+    height: calc(301rem/64);
+    color: #ffffff;
+    text-align: center;
+  
+}
+.last div:nth-child(1){
+    margin-top:calc(30rem/64)
+}
+.last div:nth-child(2){
+    margin-top: calc(10rem/64);
+}
+.last div:nth-child(3){
+    margin-top: calc(10rem/64);
+}
+/* last-last */
+.last-last{
+    width:100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+background-color: #fefeff;
+height: calc(140rem/64);
+text-align: center;
+padding-top: calc(20rem/64);
+font-size: calc(30rem/64);
+}
+.last-last div:nth-child(2){
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top:calc(20rem/64);
+  height:calc(70rem/64);
+  line-height: calc(70rem/64);
+  font-size: calc(35rem/64);
+  background-color: #38b44c;
+}

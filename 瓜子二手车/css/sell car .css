@@ -1,0 +1,377 @@
+.heard{
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: #ffffff;
+    font-size: calc(15rem/64);
+    width:100%;
+    height: calc(80rem/64);
+    text-align: center;
+    line-height: calc(80rem/64);
+}
+.heard-left{
+    float: left;
+    margin-left: calc(20rem/64);
+    font-size:calc( 45rem/64)
+
+}
+.heard-center{
+    float: left;
+    margin-left:calc(200rem/64);
+    font-size: calc(35rem/64);
+}
+.heard-right{
+    float: right;
+    padding-top: calc(10rem/64);
+    border: 1px solid #ffffff;
+    overflow: hidden;
+}
+.heard-right span:nth-child(1){
+    display: block;
+    float: left;
+    background-image: url(../img/sellcar10.png);
+    width: calc(60rem/64);
+    height: calc(48rem/64);
+    background-size: calc(155rem/64);
+    background-position: -176px 26px;
+    /* margin-right: calc(10rem/64); */
+    
+}
+.heard-right span:nth-child(2){
+    display: block;
+    float: left;
+    background-image: url(../img/sellcar10.png);
+    width: calc(60rem/64);
+    height: calc(41rem/64);
+    background-size: calc(155rem/64);
+    background-position: -176px 0px;
+   
+    margin-top: calc(10rem/64);
+}
+.one{
+    margin-top: calc(80rem/64);
+}
+.one img{
+width:100%
+}
+.main{
+ margin-top:calc(20rem/64);
+ padding: 0 calc(50rem/64);
+}
+.main ul{
+    overflow: hidden;
+}
+.main span:nth-child(1){
+    font-size: calc(60rem/64);
+color: #22ac38}
+.main-one {
+    padding-bottom: calc(20rem/64);
+}
+.main-two input{
+height: calc(70rem/64);
+width:70%;
+background-color: #f5f7fa;
+box-sizing: border-box;
+border: none;
+text-align: center;
+float: left;
+}
+.main-there{
+    float: right;
+    width:30%;
+    height: calc(70rem/64);
+    background-color: #22ac38;
+    text-align: center;
+    line-height: calc(70rem/64);
+    font-size: calc(20rem/64);
+    color: #ffffff;
+   
+}
+.main-four{
+width:47%;
+border: 1px solid;
+float: left;
+margin-top: calc(40rem/64);
+height: calc(70rem/64);
+text-align: center;
+line-height:calc(70rem/64);
+color: #ccc;
+font-size: calc(30rem/64);
+}
+.main-five{
+    width:47%;
+    float: right;
+    border: 1px solid ;
+    margin-top: calc(40rem/64);
+    height: calc(70rem/64);
+    text-align: center;
+    line-height:calc(70rem/64);
+    color: #ccc;
+    font-size: calc(30rem/64);
+}
+
+.main-main{
+    margin-top: calc(50rem/64);
+    padding: calc(20rem/64) calc(50rem/64);
+}
+.main-main ul li:nth-child(1){
+    font-size: calc(40rem/64);
+    margin-bottom: calc(20rem/64);
+}
+.main-main-left{
+    width: 48%;
+    float: left;
+    margin-right:2%;
+}
+.main-main-left img {
+width: 100%;
+}
+.main-mian-right{
+ 
+    width: 48%;
+    float: right;
+    margin-left: 2%;
+}
+.main-mian-right div:nth-child(1){
+    font-size: calc(28rem/64);
+    margin-bottom: calc(10rem/64);
+}
+.main-mian-right div:nth-child(2){
+    color:#ccc;
+    margin-bottom: calc(10rem/64);
+}
+.main-mian-right div:nth-child(3){
+    color: #ff7147;
+    font-size: calc(25rem/64);
+}
+.main-main ul{
+    overflow: hidden;
+    margin-bottom: calc(10rem/64);
+}
+.main-main ul:nth-child(2) div:nth-child(2) div:nth-child(2){
+    font-size: calc(14rem/64);
+}
+.two{
+    width: 90%;
+    border-top:1px solid #ccc;
+    padding: calc( 30rem/64);
+    margin-top:calc(20rem/64);
+    text-align: center;
+    font-size: calc(20rem/64);
+}
+.last-one{
+    background-image: url(../img/sellcar11.png);
+    background-size: auto;
+    padding:0 calc(40rem/64);
+    margin-bottom: calc(60rem/64);
+}
+.last-one-top{
+    padding-top: calc(40rem/64);
+    font-size: calc(37rem/64);
+    text-align: center;
+    color: #976114;;
+}
+.last-on-bottom{
+    overflow: hidden;
+    margin-top: calc(40rem/64);
+   background-color: #ffffff;
+}
+.last-on-bottom-one {
+    overflow: hidden;
+    float: left;
+
+}
+.last-on-bottom-two{
+    overflow: hidden;
+    float: left;
+    margin: 0 calc(60rem/64 );
+}
+.last-on-bottom-there{
+    overflow: hidden;
+    float: left;
+   
+}
+.last-on-bottom-one div {
+  margin: 0 auto;
+background-image: url(../img/sellcar12.png);
+width:calc(60rem/64);
+height: calc(60rem/64);
+background-size: calc(60rem/64) calc(60rem/64);
+}
+
+.last-on-bottom-two div {
+    margin: 0 auto;
+    background-image: url(../img/sellcar13.png);
+    width:calc(60rem/64);
+    height: calc(60rem/64);
+    background-size: calc(60rem/64) calc(60rem/64);
+}
+    
+.last-on-bottom-there div {
+    margin: 0 auto;
+        background-image: url(../img/sellcar14.png);
+        width:calc(60rem/64);
+        height: calc(60rem/64);
+        background-size: calc(60rem/64) calc(60rem/64);
+    }
+    .last-on-bottom-one p{
+        width: calc(146rem/64);
+        text-align: center;
+        color: #ccc;
+        margin-top:calc(10rem/64)
+    }
+    h5{
+        width: 100%;
+        text-align: center;
+        margin-top:calc(10rem/64)
+    }
+    .last-on-bottom-two p{
+        width: calc(146rem/64);
+        text-align: center;
+        color: #ccc;
+        margin-top:calc(10rem/64)
+    }
+    .last-on-bottom-there p{
+        width: calc(146rem/64);
+        text-align: center;
+        color: #ccc;
+        margin-top:calc(10rem/64)
+    }
+    .there img{
+        width: 100%;
+    }
+
+    .last-two{
+        margin-top: calc(80rem/64);
+    }
+    .last-two-one{
+        text-align: center;
+        font-size: calc(40rem/64);
+        font-weight: 700;
+        margin-bottom: calc(40rem/64);
+    }
+    .last-two-two {
+        overflow: hidden;
+        margin-bottom: calc(120rem/64);
+    }
+    .last-two-two  li{
+        float: left;
+        
+    }
+    .last-two-two-one{ margin-left: calc(30rem/64);}
+    .last-two-two-four{margin-right: calc(15rem/64);}
+    .last-two-two-one div{
+background-image: url(../img/sellcar15.jpg);
+width: calc(50rem/64);
+height: calc(50rem/64);
+background-size: calc(50rem/64);
+margin: 0 auto;
+
+    }
+    .last-two-two-two div{
+        background-image: url(../img/sellcar16.png);
+        width: calc(50rem/64);
+        height: calc(50rem/64);
+        background-size: calc(50rem/64);
+        margin: 0 auto;
+    }
+    .last-two-two-there div{
+        background-image: url(../img/sellcar17.png);
+        width: calc(50rem/64);
+        height: calc(50rem/64);
+        background-size: calc(50rem/64);
+        margin: 0 auto;
+    }
+    .last-two-two-four div{
+        background-image: url(../img/sellcar18.png);
+        width: calc(50rem/64);
+        height: calc(50rem/64);
+        background-size: calc(50rem/64);
+        margin: 0 auto;
+    }
+    .last-two-two p{
+text-align: center;
+    }
+    .last-two-there{
+      font-size: calc(40rem/64);
+        margin:0 auto;
+        width:80%;
+        padding: calc(20rem/64)  0;
+        text-align: center;
+        border: 1px solid #bec5cf;
+        color: #5f6670
+    }
+    .last-two-four{
+        margin-top:calc(40rem/64);
+        padding-bottom: calc(40rem/64);
+        border-bottom: 3px solid #5f6670;
+    }
+    .last-two-four-one{
+        text-align: center;
+        font-size: calc(40rem/64);
+        margin-bottom: calc(40rem/64);
+       
+    }
+    .last-two-four-one p{
+        font-size: calc(20rem/64);
+    }
+    .last-two-four-two{
+        padding: 0 calc(40rem/64);
+        width: 80%;
+        margin: 0 auto;
+        position: relative;
+    }
+    .last-two-four-two img{
+        width: 100%;
+    }
+    .last-two-four-two p{
+      width:calc(80rem/64);
+      height: calc(80rem/64);
+      position: absolute;
+      top: calc(115rem/64);
+      left: calc(245rem/64);
+    }
+    .last-there{
+        width: 90%;
+        padding: 0 10%;
+        margin-top: calc(50rem/64);
+        margin-bottom: calc(100rem/64);
+    }
+    .last-there h1{
+        font-size: calc(40rem/64);
+    }
+    .last-there div{
+        width: 100%;
+        height: calc(60rem/64);
+        border-bottom: 1px  solid #eff2f6;
+        line-height: calc(60rem/64);
+        padding: calc(20rem/64) 0;
+    }
+    .last-last-last{
+    position: fixed;
+    
+    bottom: 0;
+    height: calc(100rem/64);
+    width: 100%;
+    line-height:calc(100rem/64);
+background-color: #ffffff;
+    }
+
+    .last-last-last input{
+        height: 80%;
+        line-height: 80%;
+        color: #ccc;
+        width:calc(400rem/64);
+        margin-left:calc(50rem/64);
+        padding-left: calc(20rem/64);
+    }
+    .last-last-last span{
+        margin-top: calc(40rem/64);
+       display: inline-block;
+       
+        height: 80%;
+        width:calc(100rem/64);
+        text-align: center;
+        line-height: 80%;
+       
+    }

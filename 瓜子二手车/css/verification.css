@@ -1,0 +1,89 @@
+
+body{
+    background-color: #cccccc;
+  height: 100%;
+}
+.head{
+    width: 100%;
+    height: calc(120rem/64);
+    background-color: #ffffff;
+}
+.head-top{
+    font-size: calc(32rem/64);
+    text-align: center;
+    margin-top:calc(15rem/64)
+}
+.head-bottom{
+    text-align: center;
+    font-size: calc(10rem/64);
+    margin-top:calc(40rem/64)
+}
+.head-bottom i{
+    color: aquamarine;
+}
+.main{
+    width: 100%;
+    background-color: #ffffff;
+    margin-top:calc(15rem/64)
+}
+.main-top{
+    height: calc(80rem/64);
+    line-height: calc(80rem/64);
+    font-size: calc(30rem/64);
+}
+.main-top-one{
+    float: left;
+    font-size: calc(25rem/64);
+    margin-left:calc(20rem/64)
+}
+.main-top-two{
+    float: left;
+}
+.main-top-two input{
+    font-size: calc(25rem/64);
+    border: none;
+    margin-left: calc(20rem/64);
+    color: #cccccc;
+}
+.main-bottom{
+    height: calc(80rem/64);
+    line-height: calc(80rem/64);
+    font-size: calc(30rem/64);
+}
+.main-bottom-one{
+    float: left;
+    font-size: calc(25rem/64);
+    margin-left:calc(20rem/64)
+}
+.main-bottom-two{
+    float: left;
+    margin-left: calc(20rem/64);
+   
+}
+.main-bottom-two input {
+    border:none;
+    color: #cccccc;
+}
+.main-bottom-there{
+    float:right;
+    margin-right: calc(20rem/64);
+    font-size: calc(25rem/64);
+    color: #cccccc;
+}
+.last{
+    background-color: #ffffff;
+    padding-top: 10%;
+    height: calc(130rem/64);
+    text-align: center;
+       
+}
+.last div{
+    
+     width: 90%;
+     background-color: aquamarine;
+     margin: 0 auto;
+     color: #ffffff;
+     height:50%;
+     line-height: calc(75rem/64);
+     font-size: calc(30rem/64);
+}

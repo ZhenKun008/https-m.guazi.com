@@ -1,0 +1,18 @@
+.easy-top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100rem/64);
+    background-color: #ffffff;
+    font-size: calc(30rem/64);
+    text-align: center;
+    line-height:calc(100rem/64);
+}
+.easy-bottom{
+    font-size: 0;
+    margin-top:calc(100rem/64)
+}
+img{
+    width: 100%;
+}

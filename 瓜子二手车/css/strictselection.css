@@ -1,0 +1,127 @@
+.one{
+    width: 100%;
+position: relative;
+}
+.one-one{
+    width: 100%;
+}
+.one-one {
+    width: 100%;
+   
+}
+.one-one img{
+    position: absolute;
+    top: calc(110rem/64);
+    left: calc(270rem/64);
+    width: calc(80rem/64);
+    height: calc(80rem/64);
+    z-index: 99;
+}
+.one img:nth-child(2) {
+    height: calc(300rem/64);
+    width: 100%;
+}
+.two{
+    margin-top:calc(40rem/64);
+    width: 90%;
+    padding: 0 5%;
+    padding-bottom: calc(40rem/64);
+    border-bottom: 10px solid #f5f6f9;
+}
+.two-one{
+    color: #303741;
+    font-size: calc(32rem/64);
+    margin-bottom: calc(15rem/64);
+}
+.two-two{
+    color: #000000;
+    margin-bottom: calc(15rem/64);
+}
+.there{
+    padding:calc(40rem/64) ;
+
+}
+.there-one{
+    width: 100%;
+}
+.there-one img{
+    width: 100%;
+}
+.there-one div{
+    font-size: calc(40rem/64);
+    margin-bottom: calc(15rem/64);
+}
+.four{
+    overflow: hidden;
+}
+.four-one{
+    float: left;
+    width: 48%;
+    border: 1px solid #f5f6f9;
+    margin-right: calc(10rem/64);
+  
+}
+.four-one img{
+    width: 100%;
+}
+.four-one div{
+    color: #ff7147;
+}
+.four-two{
+    float: right;
+    width: 48%;
+  height: calc(264rem/64);
+}
+.four-two img{
+    margin-left: calc(95rem/64);
+    margin-top: calc(100rem/64);
+    width: calc(60rem/64);
+    height: calc(60rem/64);
+}
+.five{
+    margin-top: calc(40rem/64);
+}
+.five-one{
+    font-size: calc(25rem/64);
+    margin-bottom: calc(20rem/64);
+}
+.five ul li{
+    float: left;
+    width: 100%;
+}
+.five-one-one{
+    width: 50%;
+}
+.five-one-two{
+    width: 50%;
+}
+.five ul li img{
+    width: 100%;
+}
+.five-one-one{
+    float: left;
+}
+.five-one-two{
+    float: right;
+}
+.five-one-two p{
+    margin-bottom: calc(45rem/64);
+}
+.five-one-two div{
+    margin-bottom: calc(39rem/64);
+    color: #cccccc;
+}
+.five-one-two i{
+    color:#ff7147
+}
+.six{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: calc(70rem/64);
+    background-color: #22ac38;
+    margin-left: calc(-39rem/64);
+    text-align: center;
+    line-height: calc(70rem/64);
+    color: #f5f6f9;
+}

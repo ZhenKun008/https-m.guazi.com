@@ -1,0 +1,23 @@
+/* ���� */
+.container {
+  position: relative;
+  margin: 0 auto;
+  /* width: 1226px; */
+}
+
+/* ������� */
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  /* ����αԪ�ر�ɿ鼶 ������������һ�� */
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/* ����ie 6 7 */
+.clearfix {
+  *zoom: 1;
+} 
