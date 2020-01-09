@@ -560,7 +560,7 @@ height: calc(400rem/64);
     margin-left: 2%;
     margin-right: 1%;
     border: 1px solid #ffffff;
-    background-color: #fff1ec;
+    background-color: #fff1ec;;
     margin-bottom: calc(20rem/64);
 }
 .main-main-left-one{
@@ -588,8 +588,8 @@ display: block;
     margin-left:calc(100rem/64);
     width: calc(100rem/64);
     height:calc(40rem/64);
-border:1px solid green;
-background-color: green;
+border:1px solid #22ac38;
+background-color: #22ac38;
 text-align: center;
 line-height: calc(40rem/64);
 }
@@ -626,8 +626,8 @@ display: block;
     margin-left:calc(100rem/64);
     width: calc(100rem/64);
     height:calc(40rem/64);
-border:1px solid green;
-background-color: green;
+border:1px solid #22ac38;
+background-color: #22ac38;
 text-align: center;
 line-height: calc(40rem/64);
 }

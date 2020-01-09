@@ -4,7 +4,7 @@
     left:0;
     background-color: #ffffff;
     font-size: calc(15rem/64);
-    width:100%;
+  width:100%;
     height: calc(80rem/64);
     text-align: center;
     line-height: calc(80rem/64);
@@ -33,7 +33,7 @@
     width: calc(60rem/64);
     height: calc(48rem/64);
     background-size: calc(155rem/64);
-    background-position: -176px 26px;
+    background-position: -180px -20px;
     /* margin-right: calc(10rem/64); */
     
 }
@@ -44,7 +44,7 @@
     width: calc(60rem/64);
     height: calc(41rem/64);
     background-size: calc(155rem/64);
-    background-position: -176px 0px;
+    background-position: -99px -47px;
    
     margin-top: calc(10rem/64);
 }
@@ -67,9 +67,14 @@ color: #22ac38}
 .main-one {
     padding-bottom: calc(20rem/64);
 }
+.main-two{
+    overflow: hidden;
+    float: left;
+    width: 70%;
+}
 .main-two input{
 height: calc(70rem/64);
-width:70%;
+width:100%;
 background-color: #f5f7fa;
 box-sizing: border-box;
 border: none;
@@ -258,8 +263,14 @@ background-size: calc(60rem/64) calc(60rem/64);
         float: left;
         
     }
-    .last-two-two-one{ margin-left: calc(30rem/64);}
-    .last-two-two-four{margin-right: calc(15rem/64);}
+    /* .last-two-two-one{ margin-left: calc(30rem/64);} */
+    .last-two-two-four{margin-left: calc(25rem/64);}
+    .last-two-two-there{
+        margin-left: calc(13rem/64);
+    }
+    .last-two-two-two{
+        margin-left: calc(15rem/64);
+    }
     .last-two-two-one div{
 background-image: url(../img/sellcar15.jpg);
 width: calc(50rem/64);
@@ -332,7 +343,7 @@ text-align: center;
       left: calc(245rem/64);
     }
     .last-there{
-        width: 90%;
+        /* width: 90%; */
         padding: 0 10%;
         margin-top: calc(50rem/64);
         margin-bottom: calc(100rem/64);
@@ -349,16 +360,19 @@ text-align: center;
     }
     .last-last-last{
     position: fixed;
-    
+    width: 100%;
     bottom: 0;
     height: calc(100rem/64);
-    width: 100%;
+   
     line-height:calc(100rem/64);
 background-color: #ffffff;
     }
+    .last-last-last div{
+        float: left;
+    }
 
     .last-last-last input{
-        height: 80%;
+        height: calc(50rem/64);
         line-height: 80%;
         color: #ccc;
         width:calc(400rem/64);
@@ -366,12 +380,14 @@ background-color: #ffffff;
         padding-left: calc(20rem/64);
     }
     .last-last-last span{
-        margin-top: calc(40rem/64);
+color: #f5f7fa;
+line-height: calc(50rem/64);
+
        display: inline-block;
-       
-        height: 80%;
+       height: calc(50rem/64);
         width:calc(100rem/64);
         text-align: center;
-        line-height: 80%;
+
+        background-color: #22ac38;
        
     }

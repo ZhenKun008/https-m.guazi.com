@@ -61,6 +61,9 @@ position: relative;
     margin-right: calc(10rem/64);
   
 }
+.four-one p{
+    font-size: calc(21rem/64);
+}
 .four-one img{
     width: 100%;
 }
@@ -105,14 +108,20 @@ position: relative;
     float: right;
 }
 .five-one-two p{
-    margin-bottom: calc(45rem/64);
+    margin-top: calc(10rem/64);
+    margin-bottom: calc(25rem/64);
+    margin-left: calc(10rem/64);
+    font-size: calc(25rem/64);
+    
 }
 .five-one-two div{
     margin-bottom: calc(39rem/64);
     color: #cccccc;
+    margin-left: calc(10rem/64);
 }
 .five-one-two i{
-    color:#ff7147
+    color:#ff7147;
+    margin-left: calc(10rem/64);
 }
 .six{
     position: fixed;
